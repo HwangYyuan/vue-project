@@ -1,0 +1,86 @@
+/* base css */
+body, h1, h2, h3, p, dl, dd, ol, ul, th, td, form, fieldset, input, button, textarea { margin: 0; padding: 0 }
+html { -webkit-text-size-adjust: none; word-wrap: break-word }
+h1, h2, h3 { font-size: 100% }
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; empty-cells: show; font-size: inherit; }
+fieldset,img,input,button{border:0 none; padding:0;margin:0;outline-style:none; }
+fieldset, img { border: 0 ;}
+cite, em, s, i, b { font-style: normal;}
+input, button, textarea, select { font-size: 100%;}
+body, input, button, textarea, select, option { font-size: normal;}
+a, input, textarea { text-decoration: none; outline: 0 ;}
+li, img, label, input { vertical-align: middle ;}
+body { font-size: 20px; background-color: #FFF; }
+article, aside, canvas, details, figcaption, figure,main,footer, header, hgroup, menu, nav, section, summary{ 
+    display: block;
+}
+
+ /*常用类名*/
+.hide { display: none ;}
+ /*清除浮动*/
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+    clear:both;
+    zoom:1;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+
+ /*媒体查询*/
+@media only screen and (max-width:300px) {
+    body { font-size: 8.33333px }
+}
+@media only screen and (max-width:310px) and (min-width:300px) {
+    body { font-size: 8.33333px }
+}
+@media only screen and (max-width:320px) and (min-width:310px) {
+    body { font-size: 8.61111px }
+}
+@media only screen and (max-width:350px) and (min-width:320px) {
+    body { font-size: 8.88889px }
+}
+@media only screen and (max-width:360px) and (min-width:350px) {
+    body { font-size: 9.72222px }
+}
+@media only screen and (max-width:400px) and (min-width:360px) {
+    body { font-size: 10px }
+}
+@media only screen and (max-width:470px) and (min-width:400px) {
+    body { font-size: 11.11111px }
+}
+@media only screen and (max-width:480px) and (min-width:470px) {
+    body { font-size: 13.05556px }
+}
+@media only screen and (max-width:540px) and (min-width:480px) {
+    body { font-size: 13.33333px }
+}
+@media only screen and (max-width:560px) and (min-width:540px) {
+    body { font-size: 15px }
+}
+@media only screen and (max-width:570px) and (min-width:560px) {
+    body { font-size: 15.55556px }
+}
+@media only screen and (max-width:630px) and (min-width:570px) {
+    body { font-size: 15.83333px }
+}
+@media only screen and (max-width:640px) and (min-width:630px) {
+    body { font-size: 17.5px }
+}
+@media only screen and (max-width:710px) and (min-width:640px) {
+    body { font-size: 17.77778px }
+}
+@media only screen and (max-width:720px) and (min-width:710px) {
+    body { font-size: 19.72222px }
+}
+@media only screen and (min-width:720px) {
+    body { font-size: 20px }
+}
